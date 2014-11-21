@@ -26,7 +26,7 @@ a {
     color:#fff;
 }
 .active a {
-    background-color:#44C4F2 !important;
+    background-color:transparent !important;
     color:#196b86 !important;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color:#fff!important;
+    color:#fff!;
     font-family: oswald, helvetica, arial, sans-serif;
     font-weight: 900;
     font-size:15px;
@@ -48,6 +48,10 @@ a {
         transition:.3s;
 }
 
+.navbar-collapse {
+    border-top:none;
+    background-color: #44C4F2;
+}
 
 /* /////////////////////// endnav //////////////////// */
 
@@ -246,4 +250,13 @@ img {
     width:86px;
     height:34px;
     margin:0;
+}
+
+.navbar-toggle {
+    background-color:#fff !important;
+    border-color: transparent !important;
+}
+
+.icon-bar {
+    background-color: #44C4F2 !important ;
 }
